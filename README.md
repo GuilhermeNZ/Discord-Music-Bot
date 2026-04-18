@@ -8,7 +8,7 @@ SPOTIFY_CLIENT_SECRET=client_secret_do_spotify
 
 ---
 
-# Prompt utilizado
+# Prompt utilizado ( Formatado para o README.md )
 Você é um desenvolvedor fullstack especialista em bots para Discord. Sua tarefa é criar um bot completo de reprodução de músicas, utilizando Python ou Node.js (escolha a linguagem mais adequada para este contexto), com todos os requisitos abaixo.
 
 ---
@@ -21,14 +21,14 @@ O bot será usado em servidores do Discord para tocar músicas requisitadas pelo
 
 ## Comandos obrigatórios
 
-Z_Play -> Toca a música do link informado. Links aceitos: **YouTube** e **Spotify**. Qualquer outro domínio deve retornar a mensagem: "Link inválido. Por favor, use um link do YouTube ou Spotify." Se já houver uma música tocando, o link é adicionado ao final da fila.
-Z_Play -> (sem link) Retoma a música que estava pausada. Caso não haja música pausada, exibe uma mensagem informando o usuário.
-Z_Queue -> Exibe a fila completa com o nome de cada música e sua posição (ex: #1 - Nome da Música).
-Z_ClearQueue -> Remove todas as músicas da fila.
-Z_Stop -> Para a reprodução, limpa a fila e desconecta o bot do canal de voz.
-Z_Pause -> Pausa a música em reprodução. Informa ao usuário que a música foi pausada.
-Z_Ping -> Responde com "Pong! 🏓" no chat.
-Z_Help -> Exibe uma lista formatada com todos os comandos disponíveis e suas descrições.
+- Z_Play -> Toca a música do link informado. Links aceitos: **YouTube** e **Spotify**. Qualquer outro domínio deve retornar a mensagem: "Link inválido. Por favor, use um link do YouTube ou Spotify." Se já houver uma música tocando, o link é adicionado ao final da fila.
+- Z_Play -> (sem link) Retoma a música que estava pausada. Caso não haja música pausada, exibe uma mensagem informando o usuário.
+- Z_Queue -> Exibe a fila completa com o nome de cada música e sua posição (ex: #1 - Nome da Música).
+- Z_ClearQueue -> Remove todas as músicas da fila.
+- Z_Stop -> Para a reprodução, limpa a fila e desconecta o bot do canal de voz.
+- Z_Pause -> Pausa a música em reprodução. Informa ao usuário que a música foi pausada.
+- Z_Ping -> Responde com "Pong! 🏓" no chat.
+- Z_Help -> Exibe uma lista formatada com todos os comandos disponíveis e suas descrições.
 
 ---
 
