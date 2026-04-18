@@ -6,6 +6,8 @@ DISCORD_TOKEN=token_copiado_do_discord
 SPOTIFY_CLIENT_ID=client_id_do_spotify
 SPOTIFY_CLIENT_SECRET=client_secret_do_spotify
 
+---
+
 # Prompt utilizado
 Você é um desenvolvedor fullstack especialista em bots para Discord. Sua tarefa é criar um bot completo de reprodução de músicas, utilizando Python ou Node.js (escolha a linguagem mais adequada para este contexto), com todos os requisitos abaixo.
 
